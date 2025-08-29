@@ -43,6 +43,14 @@
 - **timeout**: 请求超时时间（秒）
 - **image1-5**: 可选的参考图片输入
 
+### 支持的模型
+- **gemini-2.0-flash-preview-image-generation** - Gemini 2.0 Flash 预览图像生成模型
+- **gemini-2.5-flash-image** - Gemini 2.5 Flash 图像生成模型
+- **gemini-2.5-flash-image-preview** - Gemini 2.5 Flash 预览图像生成模型
+- **flux-kontext-max** - Flux Kontext Max 模型
+- **flux-kontext-pro** - Flux Kontext Pro 模型
+- **gpt-4o-image** - GPT-4O 图像生成模型
+
 ---
 
 ## English
@@ -83,6 +91,14 @@ This is a ComfyUI node plugin for calling the AiYobox API to generate images. Wi
 - **model**: Model name (default: gemini-2.0-flash-preview-image-generation)
 - **timeout**: Request timeout in seconds
 - **image1-5**: Optional reference image inputs
+
+### Supported Models
+- **gemini-2.0-flash-preview-image-generation** - Gemini 2.0 Flash preview image generation model
+- **gemini-2.5-flash-image** - Gemini 2.5 Flash image generation model
+- **gemini-2.5-flash-image-preview** - Gemini 2.5 Flash preview image generation model
+- **flux-kontext-max** - Flux Kontext Max model
+- **flux-kontext-pro** - Flux Kontext Pro model
+- **gpt-4o-image** - GPT-4O image generation model
 
 ### Requirements
 - ComfyUI
