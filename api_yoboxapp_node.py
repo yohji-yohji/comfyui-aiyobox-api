@@ -24,7 +24,7 @@ class AiYoboxNode:
                 "prompt": ("STRING", {"multiline": True, "default": "A beautiful landscape painting"}),
                 "api_key": ("STRING", {"multiline": False, "default": "sk-your-key-here"}),
                 "post_url": ("STRING", {"multiline": False, "default": "https://api.yoboxapp.com/v1/chat/completions"}),
-                "model": ("STRING", {"multiline": False, "default": "gemini-2.0-flash-preview-image-generation"}),
+                "model": ("STRING", {"multiline": False, "default": "gemini-2.5-flash-image"}),
                 "timeout": ("INT", {"default": 30, "min": 5, "max": 300, "step": 1}),
             },
             "optional": {
